@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: black;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background: url(../images/G0033743.JPG) center center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h2 {
+  padding: 100px 0;
+  font-size: 40px;
+}
+
+a {
+  margin: 0 auto;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  color: orange;
+  padding: 0px 80px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  text-transform: uppercase;
+}
+
+a:hover, a:focus {
+  background: rgba(265, 165, 0, 0.5);
+  color: white;
+  transition: .2s;
+}
