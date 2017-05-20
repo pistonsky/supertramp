@@ -19,7 +19,6 @@ body {
   align-content: center;
   margin: auto;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
 }
 
 h1, h2 {
@@ -44,13 +43,14 @@ a {
   color: orange;
   padding: 0px 80px;
   font-size: 40px;
+  font-weight: 800;
   border-radius: 10px;
-  border: 1px solid orange;
+  border: 3px solid orange;
   text-transform: uppercase;
 }
 
 a:hover, a:focus {
-  background: rgba(265, 165, 0, 0.5);
-  color: white;
+  background: rgba(265, 165, 0, 0.3);
   transition: .2s;
+  transform: scale(1.1);
 }
