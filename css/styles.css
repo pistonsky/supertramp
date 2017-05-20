@@ -27,12 +27,11 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 8vw;
 }
 
 h2 {
-  padding: 100px 0 0;
-  font-size: 40px;
+  font-size: 5vh;
 }
 
 a {
@@ -42,7 +41,7 @@ a {
   cursor: pointer;
   color: orange;
   padding: 0px 80px;
-  font-size: 40px;
+  font-size: 5vh;
   font-weight: 800;
   border-radius: 10px;
   border: 3px solid orange;
