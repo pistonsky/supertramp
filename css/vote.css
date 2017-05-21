@@ -1,13 +1,41 @@
 body {
-  background: url(../images/map.png) center center no-repeat;
   background-color: #2a2728;
-  background-size: contain;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: 800;
+  display: flex;
+  flex-direction: column;
 }
 
 h2 {
   text-align: center;
   font-size: 4vh;
   color: orange;
+}
+
+#map {
+  background: url(../images/map.png) left top no-repeat;
+  background-size: contain;
+  width: 1121px;
+  height: 637;
+  margin: auto;
+  position: relative;
+}
+
+a.destination {
+  border-radius: 3px;
+  background: red;
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+}
+
+#bali {
+  left: 870px;
+  top: 410px;
+}
+
+#goa {
+  left: 729px;
+  top: 324px;
 }
