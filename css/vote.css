@@ -136,7 +136,7 @@ p {
 }
 
 .donate-button.philippines {
-  left: 850px;
+  left: 871px;
   top: 367px;
 }
 
@@ -148,4 +148,14 @@ p {
 .donate-button.peru {
   left: 93px;
   top: 432px;
+}
+
+#dominicana {
+  left: 243px;
+  top: 302px;
+}
+
+.donate-button.dominicana {
+  left: 211px;
+  top: 328px;
 }
