@@ -18,6 +18,7 @@ h2 {
   text-align: center;
   font-size: 4vh;
   color: orange;
+  margin-bottom: 0;
 }
 
 p {
@@ -48,16 +49,16 @@ p {
 
 .destination {
   position: absolute;
-  color: red;
+  color: white;
   text-decoration: none;
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 16px;
+  font-weight: 800;
   padding: 4px 0 0 5px;
 }
 
 .destination::after {
   border-radius: 3px;
-  background: red;
+  background: white;
   width: 6px;
   height: 6px;
   display: block;
@@ -72,38 +73,12 @@ p {
   left: auto;
 }
 
+.destination span {
+  color: #ffdb4d;
+}
+
 .donate-button {
   position: absolute;
-}
-
-.donate-button.bali {
-  left: 815px;
-  top: 430px;
-}
-
-.donate-button.goa {
-  left: 660px;
-  top: 344px;
-}
-
-.donate-button.vietnam {
-  left: 780px;
-  top: 301px;
-}
-
-.donate-button.philippines {
-  left: 850px;
-  top: 365px;
-}
-
-.donate-button.peru {
-  left: 150px;
-  top: 430px;
-}
-
-.donate-button.abkhazia {
-  left: 559px;
-  top: 230px;
 }
 
 #abkhazia {
@@ -115,19 +90,44 @@ p {
   left: 32px;
 }
 
+.donate-button.abkhazia {
+  left: 535px;
+  top: 229px;
+}
+
 #bali {
   left: 870px;
   top: 410px;
 }
 
+.donate-button.bali {
+  left: 839px;
+  top: 432px;
+}
+
 #goa {
-  left: 708px;
+  left: 644px;
   top: 324px;
 }
 
+.donate-button.goa {
+  left: 612px;
+  top: 346px;
+}
+
 #vietnam {
-  left: 846px;
-  top: 331px;
+  left: 848px;
+  top: 318px;
+}
+
+#vietnam::after {
+  top: 12px;
+  left: -3px;
+}
+
+.donate-button.vietnam {
+  left: 817px;
+  top: 301px;
 }
 
 #philippines {
@@ -135,7 +135,17 @@ p {
   top: 345px;
 }
 
+.donate-button.philippines {
+  left: 850px;
+  top: 367px;
+}
+
 #peru {
-  left: 193px;
+  left: 124px;
   top: 410px;
+}
+
+.donate-button.peru {
+  left: 93px;
+  top: 432px;
 }
