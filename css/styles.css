@@ -40,12 +40,14 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: orange;
-  padding: 0px 80px;
+  padding: 0;
   font-size: 5vh;
   font-weight: 800;
   border-radius: 10px;
   border: 3px solid orange;
   text-transform: uppercase;
+  width: 50vh;
+  text-align: center;
 }
 
 a:hover, a:focus {
